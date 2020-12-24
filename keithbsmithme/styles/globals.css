@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template:
+    [header-start] "header" 6rem [header-end]
+    [content-end] "content" auto [content-end]
+    [footer-start] "footer" 4rem [footer-end]
+    / auto;
+}
+
+header {
+  grid-area: header;
+}
+
+#__next {
+  grid-area: content;
+}
+
+footer {
+  grid-area: footer;
 }
 
 a {

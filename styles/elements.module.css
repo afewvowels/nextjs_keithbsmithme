@@ -1,0 +1,30 @@
+.iconDecoratedWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 0.5rem;
+  align-items: flex-start;
+  justify-items: center;
+}
+
+.iconDecoratedWrapper > h3 {
+  font-size: 1.333rem;
+  margin-top: 0.9rem;
+  align-self: center;
+}
+
+.iconDecoratedWrapper > span {
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--background-color);
+  background-color: var(--foreground-color);
+  border-radius: 8%;
+}
+
+.iconDecoratedWrapper > span > svg {
+  height: 2.5rem;
+  width: auto;
+}

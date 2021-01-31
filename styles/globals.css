@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-heavy);
 }
 
-a, p, ul, ol, li {
+a, p, ul, ol, li, button {
   font-family: var(--font-body);
   font-weight: var(--font-light);
 }
@@ -40,6 +40,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  background-color: var(--foreground-color);
+  color: var(--background-color);
+  border: 1px solid var(--foreground-color);
+  border-radius: 0.15rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0.25rem 0.5rem;
 }
 
 #__next {

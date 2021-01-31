@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  cursor: pointer;
 }
 
 .headerTitleSpan > h1 {
@@ -52,6 +53,7 @@
   justify-content: center;
   font-family: var(--font-body);
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .navbar > ul > li:hover {

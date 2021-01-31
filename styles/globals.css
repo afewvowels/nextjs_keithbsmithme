@@ -16,6 +16,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6, a, p, ul, ol, li {
@@ -40,6 +42,7 @@ a {
 
 * {
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 button {
@@ -70,5 +73,11 @@ button {
   #__next {
     padding: 0 1rem;
     grid-template-rows: 5.5rem auto 3rem;
+  }
+}
+
+@media (min-width: 960px) {
+  #__next {
+    width: 920px;
   }
 }

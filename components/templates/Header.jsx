@@ -10,7 +10,7 @@ import styles from '@styles/templates.module.css'
 const Header = () => {
   return(<>
     <Head>
-      <title>Home | Keith</title>
+      <title>Home | Keith Smith</title>
     </Head>
     <header className={styles.header}>
       <Link href='/'>

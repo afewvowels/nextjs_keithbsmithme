@@ -13,6 +13,10 @@
     justify-content: space-around;
   }
 
+  .header > * + * {
+    margin-top: 0.5rem;
+  }
+
   .headerTitleSpan > h1 {
     height: fit-content;
   }

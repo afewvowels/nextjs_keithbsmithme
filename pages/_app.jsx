@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
       <meta name="theme-color" content="#ffffff"/>
 
       // Adobe FontKit link
-      <link rel="stylesheet" href="https://use.typekit.net/hbk6mte.css" />
+      {/* <link rel="stylesheet" href="https://use.typekit.net/hbk6mte.css" /> */}
 
       <title>Portfolio | Keith</title>
     </Head>

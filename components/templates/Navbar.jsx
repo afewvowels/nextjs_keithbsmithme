@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '@styles/templates.module.css'
 
 const Navbar = () => {
-  const pages = ['code', 'robotics', 'printing', 'about']
+  const pages = ['code', 'robotics', 'printing']
 
   return(
     <nav className={styles.navbar}>

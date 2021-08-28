@@ -15,7 +15,7 @@ const Header = () => {
     <header className={styles.header}>
       <Link href='/'>
         <span className={styles.headerTitleSpan}>
-          <h1>Portfolio</h1>
+          <h1>Keith Smith</h1>
         </span>
       </Link>
       <Navbar/>

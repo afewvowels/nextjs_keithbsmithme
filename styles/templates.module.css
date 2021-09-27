@@ -35,6 +35,7 @@
   font-weight: var(--fw-light);
   height: 100%;
   padding-top: 0.333rem;
+  cursor: pointer;
 }
 
 .navbar {

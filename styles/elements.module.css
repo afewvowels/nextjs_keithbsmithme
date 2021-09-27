@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
-  grid-row-gap: 0.5rem;
+  grid-row-gap: 1.0rem;
   align-items: flex-start;
   justify-items: center;
 }
 
 .iconDecoratedWrapper > h3 {
   font-size: 1.333rem;
-  margin-top: 0.9rem;
+  /* margin-top: 0.9rem; */
   align-self: center;
 }
 
